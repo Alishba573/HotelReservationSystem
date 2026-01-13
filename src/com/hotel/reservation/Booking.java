@@ -47,4 +47,5 @@ public class Booking {
     public LocalDate getCheckInDate() { return checkInDate; }
     public LocalDate getCheckOutDate() { return checkOutDate; }
     public double getTotalPrice() { return totalPrice; }
+    
 }

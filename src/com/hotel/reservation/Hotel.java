@@ -37,5 +37,7 @@ public class Hotel {
     // GETTERS
     public String getName() { return name; }
     public String getLocation() { return location; }
-    public List<Room> getRooms() { return rooms; }
+    public List<Room> getRooms() { 
+        return new ArrayList<>(rooms); // Return copy
+    }
 }
